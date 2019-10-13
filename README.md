@@ -7,7 +7,10 @@ It also creates "url_column_map" dataframe which stores mapping of urls and thei
 Then, using sqlalchemy "gsheet_data" and  "url_column_map" tables are created in SQL. 
 CODE using either in-memory SQLite database or SQL Server is given.
 
+"url_column_map" has mapping of urls and corresponding column names for that URL. This can help in identifying which columns of table "gsheet_data" comes from which url.
+
 To change the initial URL in code, update "given_url" variable in the code.
+
 To provides credentials for MS SQL, update "conn_str" in the code.
 
 
